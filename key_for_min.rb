@@ -3,18 +3,14 @@
 
 
 def key_for_min_value(name_hash)
-  min_key, min= name_hash.first
-  #puts min
+  min_key, min = name_hash.first
   name_hash.each do |key, value|
     if value < min
-      #puts "in here"
       min_key = key
-      #puts min_key
-      min=value
-      #puts key
+      min =v alue
     else
       min = min 
-      min_key=min_key
+      min_key = min_key
     end
   end
   return min_key
